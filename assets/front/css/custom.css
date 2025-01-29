@@ -466,7 +466,7 @@ a:hover {
 
 .education .box h2{    font-size: 18px;
     color: #000;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 15px;
     text-align: center;}
 	
@@ -490,7 +490,7 @@ a:hover {
 
     .education .box .p3{
       font-size: 13px;
-      font-weight: 500;
+      font-weight: 300;
       margin-top: 8px;
       width: 100%;
       color: rgb(66, 66, 66);
@@ -1595,6 +1595,8 @@ margin: 60px 0px 30px;}
     object-fit: cover;
     padding: 20px 50px;
 }
+
+
 
 .education .box p {
     font-size: 21px;}
