@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+header{
+    position: fixed;
+    top: 0px; left: 0; right: 0;
+    background-color: #f0807f;
+    color: white;
+    box-shadow: 0 5px 10px rgb(0, 0, 0,.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .Logo img{
+  width: 170px;
+  margin-left: 40px;
+}
+header .navbar ul{
+    list-style-type: none;
+    margin-right: 40px;
+}
+header .navbar ul li{
+   position: relative;
+   float: left;
+    
+}
+
+header .navbar ul li a{
+    font-size: 17px;
+    padding: 15px;
+    color: white;
+    display: block;
+}
+header .navbar ul li a:hover{
+       background-color: black;
+       color: white;
+}
+
+header .navbar ul li ul li a{
+  padding: 15px;
+}
+
+header .navbar ul li .navbar-dropdown{
+    position: absolute;
+    left: 0px;
+    width: 230px;
+    height: 0px;
+    overflow: hidden;
+    background-color: #f0807f;
+    transition: 0.5s;
+}
+header .navbar ul li .navbar-dropdown.active{
+  height: 256px;
+  overflow: visible;
+}
+header .navbar ul li .navbar-dropdown2{
+    position: absolute;
+    left: 0px;
+    width: 230px;
+    height: 0px;
+    overflow: hidden;
+    background-color: #f0807f;
+    transition: 0.5s;
+}
+header .navbar ul li .navbar-dropdown2.active{
+  height: 254px;
+  overflow: visible;
+}
+
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+/* header .navbar ul li:focus-within > ul,
+header .navbar ul li:active > ul{
+    display: inline;
+} */
+
+header #menu-bar{
+    display: none;
+}
+header label{
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-bar{
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+.menu-bar span{
+    height: 3px;
+    width: 30px;
+    background-color: white;
+    border-radius: 3px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+}
+.menu-bar .line-1{
+    transform: translate(-50%,-10px);
+}
+.menu-bar .line-3{
+    transform: translate(-50%,-19px);
+}
+.menu-bar.active .line-1{
+    transform: translate(-50%,-10px) rotate(45deg);
+}
+.menu-bar.active .line-3{
+    transform: translate(-50%,-10px) rotate(-45deg);
+}
+
+.menu-bar.active .line-2{
+    width: 0;
+}
+.menu-bar{
+    display: none;
+}
+@media (max-width:1080px) {
+    header .Logo img{
+  width: 160px;
+  margin-left: 20px;
+}
+header .navbar ul{
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+header .navbar ul li a{
+    padding: 15px;
+}
+header .navbar ul li .navbar-dropdown2{
+    position: absolute;
+    left: 0px;
+    width: 230px;
+    height: 0px;
+    overflow: hidden;
+    background-color: #f0807f;
+    transition: 0.5s;
+}
+header .navbar ul li .navbar-dropdown2.active{
+  height: 255px;
+  overflow: visible;
+}
+}
+
+@media (max-width:960px) {
+  
+header label{
+    display: inline;
+}
+header .navbar{
+    position: absolute;
+    top: 100%; left: 0; right: 0;
+    background-color: black;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+header .navbar.active{
+  border-top: 1px solid rgb(10, 10, 10,.2);
+    height: auto;
+    overflow: visible;
+    padding-left: 30px;
+}
+header .navbar ul li{
+    position: relative;
+    width: 100%;
+}
+header .navbar ul li a:hover{
+    background-color: rgb(41, 40, 40);
+}
+header .navbar ul li .navbar-dropdown{
+  background-color: black;
+    position: relative;
+    height: 0px;
+    width: 100%;
+    transition: 0.5s ease-out;
+}
+header .navbar ul li .navbar-dropdown.active{
+  height: 240px;
+  width: 100%;
+  overflow: visible;
+}
+header .navbar ul li .navbar-dropdown.active li{
+  background-color: black;
+  width: 100%;
+}
+
+
+    .menu-bar{
+    display: block;
+    position: absolute;
+    right: 20px;
+}
+header .navbar ul li .navbar-dropdown2{
+    position: relative;
+    left: 0px;
+    width: 230px;
+    height: 0px;
+    overflow: hidden;
+    background-color: black;
+    transition: 0.5s;
+    width: 100%;
+}
+header .navbar ul li .navbar-dropdown2 li{
+  width: 100%;
+}
+header .navbar ul li .navbar-dropdown2.active{
+  height: 255px;
+  overflow: visible;
+}
+}
+
+

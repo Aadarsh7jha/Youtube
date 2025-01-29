@@ -1,0 +1,68 @@
+.Education-Container{
+    margin-top: 80px;
+    text-transform: none;
+}
+
+.Education-Container h3{
+    font-weight: 500;
+}
+
+.Education-Container h2{
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+.Education-Container p{
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+#info h1{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+#info{
+    margin-bottom: 70px;
+    text-transform: none;
+}
+
+#info p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+#info ul li{
+   font-size: 16px;
+   text-transform: none;
+}
+
+.font-ED{
+    font-size: 21px;
+}
+
+
+
+@media (max-width:768px) {
+    .Education-Container{
+        margin-top: 20px;
+    }
+
+    .Education-Container h3{
+        font-weight: 400;
+    }
+    
+    .Education-Container h2{
+        font-weight: 500;
+        font-size: 27px;
+        margin-top: 15px;
+    }
+
+    .Education-Container p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
