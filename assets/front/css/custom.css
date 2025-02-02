@@ -1599,8 +1599,13 @@ margin: 60px 0px 30px;}
 
 
 .education .box p {
-    font-size: 21px;}
-    
+    font-size: 21px;
+  }
+
+
+  .education .box .p3{
+    font-weight: 400;
+  }
 .ayusham-03 .row{display:inline;}
 
 .ayusham-04 .card img {
@@ -2059,7 +2064,7 @@ margin: 60px 0px 30px;}
 }
 .header .navbar{
   position: absolute;
-  top: 125px;
+  top: 123px;
   z-index: 2000;
   height: 0px;
   margin: 0;
@@ -2148,7 +2153,7 @@ margin: 60px 0px 30px;}
 @media (max-width:480px) {
   
   .header .navbar{
-    top: 67px;
+    top: 65px;
   }
 
   .menu-bar{
