@@ -2017,7 +2017,7 @@ margin: 60px 0px 30px;}
 
 
 .navbar-dropdownZ.active{
-  height: 282px;
+  height: 392px;
   overflow: visible;
 }
 @media (max-width:1080px) {
@@ -2064,7 +2064,7 @@ margin: 60px 0px 30px;}
 }
 .header .navbar{
   position: absolute;
-  top: 123px;
+  top: 66px;
   z-index: 2000;
   height: 0px;
   margin: 0;
@@ -2090,8 +2090,9 @@ margin: 60px 0px 30px;}
     .menu-bar{
     display: block;
     position: absolute;
+    z-index: 2000;
     right: 20px;
-    top: 75px;
+    top: 18px;
 }
 
 .header .navbar ul li .navbar-dropdown2{
@@ -2138,15 +2139,10 @@ margin: 60px 0px 30px;}
 @media (max-width:768px) {
 
   .header .navbar{
-    top: 145px;
+    top: 66px;
   }
   
-  .menu-bar{
-    display: block;
-    position: absolute;
-    right: 20px;
-    top: 95px;
-}
+
   
 }
 
