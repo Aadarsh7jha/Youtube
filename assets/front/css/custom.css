@@ -491,6 +491,7 @@ a:hover {
     .education .box .p3{
       font-size: 13px;
       font-weight: 300;
+      text-transform: none;
       margin-top: 8px;
       width: 100%;
       color: rgb(66, 66, 66);
