@@ -380,10 +380,16 @@ nav ul li ul li a {
 }
 
 
-.nois{    width: 550px;
+.nois{   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
     margin: auto;}
     
-.nois img{width:100%;}
+.nois img{
+  margin: 30px 0px;
+   width:100%;}
 
 
 .nois-11 h3{font-size:21px;}
