@@ -103,5 +103,9 @@ h2 {
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         margin-bottom: 20px;
       }
-    
+
+    .step h3 {
+  color: #2c786c;
+  font-size: 22px;
+}
 }
